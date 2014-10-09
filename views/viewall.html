@@ -1,0 +1,10 @@
+<br/><br/><br/><a href="#/add">Add New</a>
+<h2>Viewall</h2>
+<table>
+	<tr><th>Name</th><th>Action</th></tr>
+	<tr ng-repeat="value in movies">
+	<td>{{value.title}}</td>
+	<td><a href="#/single/{{value._id}}">View</a></td>
+	<td><a href="#/" ng-click="delMov(value)">Delete</a></td>
+	</tr>
+</table>

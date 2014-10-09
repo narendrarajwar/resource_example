@@ -1,0 +1,17 @@
+<div ng-include src="'views/viewall.html'"></div>
+<h2>Detail for {{movie.title}}</h2>
+<table>
+<tr>
+<td><b>Name</b></td><td>:</td><td>{{movie.title}}</td>
+</tr>
+<tr>
+<td><b>Release</b></td><td>:</td><td>{{movie.releaseYear}}</td>
+</tr>
+<tr>
+<td><b>Director</b></td><td>:</td><td>{{movie.director}}</td>
+</tr>
+<tr>
+<td><b>Genre</b></td><td>:</td><td>{{movie.genre}}</td>
+</tr>
+<tr><td></td><td><a href="#/edit/{{movie._id}}">Edit</a></td></tr>
+</table>

@@ -1,0 +1,21 @@
+<doctype html>
+<html ng-app="resApp">
+	<head>
+		<title>Resource Example</title>
+		<script type="text/javascript" src="lib/angular/angular.js"></script>
+		<script type="text/javascript" src="lib/angular/angular-route.min.js"></script>
+		<script type="text/javascript" src="lib/angular/angular-resource.js"></script>
+		
+		<script src="js/app.js"></script>
+		<script src="js/controllers/controllers.js"></script>
+		<script src="js/services/services.js"></script>
+		
+	</head>
+	<body ng-controller="CommonCtrl">
+		<div>
+			<div><a href="#/home">Home</a></div>
+			<div ng-view></div>
+		</div>
+	</body>
+
+</html>
